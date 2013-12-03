@@ -6,8 +6,9 @@
         <title>Fan vs Fan </title>
         <!-- Boostrap -->
 
-        <link href="assets/css/bootstrap.css" rel="stylesheet" />
-        
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+            <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
         <!-- The main CSS file -->
 		<link href="assets/css/style.css" rel="stylesheet" />
 		
@@ -18,27 +19,37 @@
     </head>
     
     <body>
-    	<header>
-	    	<section>
-	    		<div class="logo">
-	    			<img src="assets/img/tumblr_logo.png" style="width:200px;"/> 	<h1>#Teams</h1>
-	    	</div>
-	    	
-	    		<p>Track your fandoms team on tumblr. Compare and contrast fandom shipments in real time.</p>
-	    	</section>
-    </header>
-		<div id="main">
-			<input type="text" id="Group1-Input"><input class="button"type="button" value="Submit" id="Group1-Btn">
-			<!-- The news ticker markup will be inserted here by the plugin -->
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-2">
+	    	<header>
+		    	<section>
+		    		<div class="logo">
+		    			<img src="assets/img/tumblr_logo.png" style="width:200px;"/> 	<h1>#Teams</h1>
+		    		</div>
+		    	
+		    		<p>Track your fandoms team on tumblr. Compare and contrast fandom shipments in real time.</p>
+		    	</section>
+	   		 </header>
+	   		 </div>
+	   		 <div class="col-md-5">
+			<div id="main">
+				<input type="text" class="form-control" id="Group1-Input"><input class="btn btn-default btn-info" type="button" value="Submit" id="Group1-Btn">
+				<!-- The news ticker markup will be inserted here by the plugin -->
+			</div>
+			</div>
+			<div class="col-md-5">
+
+			<div id="main2">
+				<input type="text" id="Group2-Input"><input class="btn btn-default btn-info" type="button" value="Submit" id="Group2-Btn">
+
+
+				<!-- The news ticker markup will be inserted here by the plugin -->
+			</div>
 		</div>
-
-		<div id="main2">
-			<input type="text" id="Group2-Input"><input class="button" type="button" value="Submit" id="Group2-Btn">
-
-
-			<!-- The news ticker markup will be inserted here by the plugin -->
 		</div>
 		
+		</div>
 		
         
 		<!-- JavaScript Includes -->
