@@ -46,6 +46,7 @@
 				//var time = $.timeago( new Date( posts['unix-timestamp'] * 1000 ) );
 				
 				postList.append('<li class="tn-post">\
+					<i class="fa fa-circle"></i>\
 									<a href="' + response.short_url + '" target="_blank">'+title+' </a>\
 								</li>');
 			});

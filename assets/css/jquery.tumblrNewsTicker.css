@@ -73,31 +73,15 @@
 	
 	/* The news title */
 	
-	top:20px;
-	left:45px;
-	width:250px;
+	max-width:450px;
 	position:absolute;
 	
 	text-decoration: none;
-	font-size:14px;
-	color: #595959;
+	font-size:2em;
 	
 	overflow:hidden;
 	white-space:nowrap;
 	text-overflow:ellipsis;
-}
-
-.tn-post:before{
-	
-	/* The doc icon */
-	
-	content:'';
-	position: absolute;
-	background: url('../img/document.png');
-	top: 25px;
-	left: 10px;
-	width: 24px;
-	height: 24px;
 }
 
 .tn-data .no-border{
