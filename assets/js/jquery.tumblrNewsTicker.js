@@ -18,7 +18,6 @@
 
 		
 		this.append('<div class="tn-container">\
-						<h2 class="tn-header">'+ settings.title +'</h2>\
 						<div class="tn-data"><ul></ul></div>\
 						<div class="tn-footer"></div>\
 					</div>');
@@ -56,7 +55,7 @@
 			// Show the first 5 news items
 	
 			postList.find('li')
-					.slice(0,5)
+					.slice(0,10)
 					.show()
 					.last()
 					.addClass('no-border');
@@ -66,7 +65,7 @@
 			//Rotate posts every settings.time ms 
 			//(only if they are more than the limit)
 			
-			if(data.response.length > 5) {
+			if(data.response.length > 15) {
 					
 				setInterval(function() {
 						

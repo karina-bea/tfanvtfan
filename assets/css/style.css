@@ -16,8 +16,10 @@
 
 body{
 	font:14px/1.3  'Lato', Helvetica, Arial, Sans-Serif; 
-   background-color:#34495e;
+   background-color: #ecf0f1;
 }
+
+h1 {font-family: 'Lato', Helvetica, Arial, Sans-Serif; }
 
 a, a:visited {
 	outline:none;
@@ -42,7 +44,7 @@ section, footer, header{
 	Styles
 -----------------------------*/
 
-header {width:100%;}
+header {width:100%;   background-color:#34495e; padding:1em;}
 header section {text-align: center; color:white; opacity: .9; margin-top:50px;}
 section p, h1 {padding-top:30px; }
 
