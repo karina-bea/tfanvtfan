@@ -36,12 +36,11 @@ section, footer, header{
 	display: block;
 }
 
-#main{
+#main, #main2{
 height:100%;
-background-color:pink;
+padding-top:2em;
 }
 
-#main2 {}
 
 /*----------------------------
 	Styles
@@ -54,12 +53,16 @@ section p, h1 {padding-top:30px; }
 
 .form-control{border-radius: 25px;}
 
-li::first-of-type {background-color:black;}
+li::first-of-type { color:#E8DDCB; font-size:2em;}
 
-li:nth-child(2){background:#16A085; color:#1ABC9C}
-li:nth-child(3) {background:#9B59B6; color:#8E44AD;}
+li:nth-child(2){ color:#CDB380;}
+li:nth-child(3) {color:#036564;}
+li:nth-child(4) {color: #033649;}
 
-li:nth-child(3n+0)
-{background-color:pink;
-}
+
+
+
+li {padding:1em; color:#031634;}
+
+.tn-post i {padding:.3em .5em;}
 
